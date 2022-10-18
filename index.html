@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>%title%</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>"
+    />
+  </head>
+  <body class="font-sans text-gray-2 bg-dark-9">
+    <div class="flex w-full h-full p-20 box-border " lg="flex-row" xs="flex-col">
+      <div lg="w-half" xs="w-full" class="h-full flex flex-col justify-center">
+        <h1 class="font-medium text-gray-1 mb-1">%title% 🌈</h1>
+        <p>Your new project is ready !</p>
+        <p>Start by editing <span class="inline-block py-2 px-3 rounded-lg bg-dark-2 text-gray-2 font-mono text-xs" xs="mx-0" md="mx-2">
+            ~/scripts/app.ts
+        </span></p>
+        <a
+          href="https://github.com/albanbleicher/small-three/blob/main/README.md"
+          target="blank"
+          class="block
+          transition
+          text-gray-9
+          bg-gray-1
+          w-max
+          decoration-none
+          px-5
+          hover:scale-105
+          duration-300
+          ease-in-out
+          py-3
+          rounded-lg
+          mt-5"
+          >Documentation</a
+        >
+      </div>
+      <div class="wrapper h-full" lg="w-half" xs="w-full"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
